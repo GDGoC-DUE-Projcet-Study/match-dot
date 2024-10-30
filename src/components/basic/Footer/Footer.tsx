@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 
-import logoImage from '@/app/assets/images/match-dot-logo.png';
+import logoImage from '@/assets/images/match-dot-logo.png';
 
 export default function Footer() {
   return (

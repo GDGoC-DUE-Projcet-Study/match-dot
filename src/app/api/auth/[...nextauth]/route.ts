@@ -1,7 +1,7 @@
 import NextAuth from 'next-auth';
 import DiscordProvider from 'next-auth/providers/discord';
-import { supabase } from '@/app/lib/supabaseClient';
 import type { AuthOptions } from 'next-auth';
+import { supabase } from '@/lib/supabaseClient';
 
 // 타입 확장 -  NextAuth의 Session 타입을 확장하여 사용자 세션에 discordId 속성을 추가
 // 이를 통해 세션 정보에 Discord 사용자 ID를 포함할 수 있음

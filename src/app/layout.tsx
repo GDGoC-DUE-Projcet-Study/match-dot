@@ -1,10 +1,10 @@
 import { ReactNode } from 'react';
 
-import Header from './components/basic/Header/Header';
-import AuthContext from './context/AuthContext';
+import AuthContext from '../context/AuthContext';
 
 import '@/app/globals.css';
-import Footer from './components/basic/Footer/Footer';
+import Footer from '@/components/basic/Footer/Footer';
+import Header from '@/components/basic/Header/Header';
 
 interface Props {
   children: ReactNode;

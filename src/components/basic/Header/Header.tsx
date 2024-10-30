@@ -5,8 +5,8 @@ import Link from 'next/link';
 import React from 'react';
 import { signIn, signOut, useSession } from 'next-auth/react';
 
-import IcDiscord from '@/app/assets/icons/IcDiscord';
-import logoImage from '@/app/assets/images/match-dot-logo.png';
+import logoImage from '@/assets/images/match-dot-logo.png';
+import IcDiscord from '@/assets/icons/IcDiscord';
 
 export default function Header() {
   const { data: session } = useSession();
