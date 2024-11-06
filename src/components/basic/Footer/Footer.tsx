@@ -2,6 +2,8 @@ import Image from 'next/image';
 import React from 'react';
 
 import logoImage from '@/assets/images/match-dot-logo.png';
+import Icon from '@/assets/icon';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -33,11 +35,17 @@ export default function Footer() {
         <p>동의대학교 컴퓨터공학과</p>
         <hr className="mb-5 mt-5" />
         <div className="flex justify-between">
-          <p>© 2024 GDGod Project Study, DEU.</p>
+          <p>© 2024 GDGoC-DEU | Project Study</p>
           <div className="flex space-x-3">
-            <span>icon</span>
-            <span>icon</span>
-            <span>icon</span>
+            <Link href={'https://github.com/SeungJin051'} target="_blank">
+              <Icon name="IcGithub" />
+            </Link>
+            <Link
+              href={'https://www.instagram.com/__seung_jin__/'}
+              target="_blank"
+            >
+              <Icon name="IcLogoInstagram" />
+            </Link>
           </div>
         </div>
       </div>
