@@ -5,8 +5,8 @@ const IcDiscord = (props: SVGProps<SVGSVGElement>) => {
   return (
     <svg
       {...props}
-      width={29}
-      height={29}
+      width={24}
+      height={24}
       viewBox="0 -28.5 256 256"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"

@@ -1,0 +1,15 @@
+export { default as IcBook } from './icBook';
+export { default as IcDiscord } from './icDiscord';
+export { default as IcGithub } from './icGithub';
+export { default as IcLike } from './icLike';
+export { default as IcList } from './icList';
+export { default as IcLogoInstagram } from './icLogoInstagram';
+export { default as IcMail } from './icMail';
+export { default as IcMenu } from './icMenu';
+export { default as IcMessage } from './icMessage';
+export { default as IcPencil } from './icPencil';
+export { default as IcPerson } from './icPerson';
+export { default as IcPersons } from './icPersons';
+export { default as IcSend } from './icSend';
+export { default as IcView } from './icView';
+export { default as IcWrite } from './icWrite';
